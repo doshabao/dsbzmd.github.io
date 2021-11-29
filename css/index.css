@@ -1,0 +1,304 @@
+body {
+    min-width: 4.266667rem;
+    max-width: 10rem;
+    /* flexible 给我们划分了10等份 */
+    /* 设计稿宽度为750px  划分为10份 （750/10） 等于75px   html的字体大小为75 */
+    /* rem计算方法为 宽度/html字体大小 现在页面宽度为（750px/75）=10rem */
+    width: 10rem;
+    margin: 0 auto;
+    /* line-height: 1.5rem; */
+    font-family:  Arial,Helvetica;
+    background: #ffffff;
+  }
+  @media screen and (min-width:750px) {
+    html{
+        font-size: 75px !important;
+    }
+}
+
+header{
+  width: 10rem;
+  height: 3.413333rem;
+  background: url(../images/LonelyParade.jpg) no-repeat;
+  background-size: 10rem 3.413333rem;
+  overflow: hidden;
+}
+header .store{
+  position: relative;
+  width: 9.066667rem;
+  height: 2.533333rem;
+  margin: .4rem .533333rem 0 .506667rem;
+  background-color: white;
+  border-radius: .266667rem;
+  overflow: hidden;
+}
+
+/* logo模块 */
+.store_message{
+  position: relative;
+  width: 4.4rem;
+  height: 1.066667rem;
+  /* background-color: pink; */
+  margin: .533333rem 0 0 .4rem;
+}
+.store_message a{
+
+ position: absolute;
+ top: .266667rem;
+ left: 1.133333rem;
+ font-weight: 700;
+ font-size: .2rem;
+ cursor: pointer;
+}
+.store_message span{
+
+  position: absolute;
+  top: .6rem;
+  left: 1.12rem;
+  font-size: .2rem;
+  color: #9c9c9c;
+}
+.store_message .logo{
+  width: 1.066667rem;
+  height: 1.066667rem;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.gz{
+  position: absolute;
+  width: 1.506667rem;
+  height: .666667rem;
+  /* background-color: pink; */
+  bottom: .533333rem;
+  right: .4rem;
+}
+.gz img{
+  width: 100%;
+  height: 100%;
+}
+.store .lj{
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: .266667rem;
+  font-weight: 700;
+  height: .4rem;
+  top: .333333rem;
+  right: .666667rem;
+}
+
+
+/* <!-- nav模块 --> */
+nav{
+  display: flex;
+  /* height: 90px; */
+  margin-top: .4rem;
+  /* background-color: pink; */
+  justify-content: space-around;
+}
+nav div{
+  width: 2.733333rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  border-radius: .2rem;
+  background-color: #fddf00;
+  overflow: hidden;
+}
+nav div a{
+  display: block;
+  width: 2.733333rem;
+  height: 1.2rem;
+  font-size: .266667rem;
+  text-decoration: none;
+  color: black;
+}
+nav div a:hover{
+  color: white;
+  background-color: #003a9b;
+}
+
+/* 商品模块 */
+.goods_title{
+  display: flex;
+  height: .533333rem;
+  line-height: .533333rem;
+  margin: .466667rem 0 .6rem .333333rem;
+  margin-left: .346667rem;
+}
+.goods_title h4{
+  margin: 0;
+  padding: 0;
+  font-size: .333333rem;
+}
+.goods_title span{
+  font-size: .2rem;
+  color: #999999;
+  margin-left: .2rem;
+}
+
+.goods_three{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: pink; */
+}
+.goods_three .goods_three_items{
+  width: 2.8rem;
+  /* height: 4.2rem; */
+  border-radius: .2rem;
+  /* background-color: #ffffff; */
+  overflow: hidden;
+  border: .013333rem solid #e7e7e7;
+}
+.goods_three .goods_three_hd{
+  width: 2.8rem;
+  height: 1.933333rem;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #f9f9fb;
+  /* background-color: skyblue; */
+}
+.goods_three_hd a{
+  display: block;
+  width: 1.533333rem;
+  height: 1.266667rem;
+  padding: .333333rem 0 0 .6rem;
+}
+.goods_three_hd a img{
+  width: 100%;
+  height: 100%;
+}
+
+.goods_three .goods_three_bd{
+  position: relative;
+  width: 2.8rem;
+  height: 2.266667rem;
+  background-color: #ffffff
+  
+}
+.goods_three_bd a{
+  display: block;
+  width: .4rem;
+  height: .266667rem;
+  padding-top: .24rem;
+  padding-left: .226667rem;
+}
+.goods_three_bd>a>img{
+  width: 100%;
+  height: 100%;
+}
+.goods_three_bd h4{
+  font-size: .226667rem;
+  margin: .306667rem .266667rem 0 .226667rem;
+  /* padding: .306667rem .266667rem 0 .226667rem; */
+}
+.goods_three_bd span{
+  display: block;
+  padding: .253333rem 0 0 .226667rem;
+  font-size: .333333rem;
+  font-weight: 700;
+  color: #e4007b;
+}
+.cart{
+  position: absolute;
+  right: .266667rem;
+  bottom: .226667rem;
+}
+.cart a{
+  display: block;
+  width: .666667rem;
+  height: .533333rem;
+}
+.cart a img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.goods_two{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: .266667rem;
+}
+
+.goods_two_items{
+  width: 4.266667rem;
+  /* height: 4.2rem; */
+  border-radius: .2rem;
+  /* background-color: #ffffff; */
+  overflow: hidden;
+  border: .013333rem solid #e7e7e7;
+  margin-bottom: .266667rem;
+}
+.goods_two .goods_two_hd{
+  width: 4.266667rem;
+  height: 3.133333rem;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #f9f9fb;
+  /* background-color: skyblue; */
+}
+.goods_two_hd a{
+  display: block;
+  width: 2.266667rem;
+  height: 2rem;
+  padding: .666667rem 0 0 1.066667rem;
+}
+.goods_two_hd a img{
+  width: 100%;
+  height: 100%;
+}
+
+.goods_two .goods_two_bd{
+  position: relative;
+  width: 4.266667rem;
+  height: 2.533333rem;
+  background-color: #ffffff
+  
+}
+.goods_two_bd a{
+  display: block;
+  width: .4rem;
+  height: .266667rem;
+  padding-top: .24rem;
+  padding-left: .226667rem;
+}
+.goods_two_bd>a>img{
+  width: 100%;
+  height: 100%;
+}
+.goods_two_bd h4{
+  font-size: .333333rem;
+  margin: .306667rem .266667rem 0 .226667rem;
+  /* padding: .306667rem .266667rem 0 .226667rem; */
+}
+.goods_two_bd span{
+  display: block;
+  padding: .253333rem 0 0 .226667rem;
+  font-size: .466667rem;
+  font-weight: 700;
+  color: #e4007b;
+}
+.goods_two_cart{
+  position: absolute;
+  right: .266667rem;
+  bottom: .226667rem;
+}
+.goods_two_cart a{
+  display: block;
+  width: .666667rem;
+  height: .533333rem;
+}
+.goods_two_cart a img{
+  width: 100%;
+  height: 100%;
+}
+
