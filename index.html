@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        id="vp" />
+
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>豆沙包护肤品专卖店</title>
-    <script src="js/flexible.js"></script>
+    <!-- 这个插件有BUG -->
+    <!-- <script src="js/flexible.js"></script> -->   
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -45,6 +52,7 @@
         <div class="goods_title">
             <h4>店铺推荐</h4> <span>お店のおすすめ</span>
         </div>
+        <!-- 三个商品 -->
         <div class="goods_three">
             <div class="goods_three_items">
                 <div class="goods_three_hd">
@@ -57,19 +65,23 @@
                         <img src="images/国旗.png" alt="">
                     </a>
                     <h4>SVELTY&nbsp;分解糖活孝母&nbsp;56粒</h4>
-                    <span>￥25</span>
-                    <div class="cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
+                    <div class="price">
+                        <span>￥25</span>
+                        <div class="cart">
+                            <a href="#">
+                                <img src="images/cart.png" alt="">
+                            </a>
+                        </div>
                     </div>
+
 
                 </div>
             </div>
+
             <div class="goods_three_items">
                 <div class="goods_three_hd">
                     <a href="#">
-                        <img src="images/good_1.png" alt="">
+                        <img src="images/good_2.png" alt="">
                     </a>
                 </div>
                 <div class="goods_three_bd">
@@ -77,19 +89,22 @@
                         <img src="images/国旗.png" alt="">
                     </a>
                     <h4>SVELTY&nbsp;分解糖活孝母&nbsp;56粒</h4>
-                    <span>￥25</span>
-                    <div class="cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
+                    <div class="price">
+                        <span>￥25</span>
+                        <div class="cart">
+                            <a href="#">
+                                <img src="images/cart.png" alt="">
+                            </a>
+                        </div>
                     </div>
+
 
                 </div>
             </div>
             <div class="goods_three_items">
                 <div class="goods_three_hd">
                     <a href="#">
-                        <img src="images/good_1.png" alt="">
+                        <img src="images/good_2.png" alt="">
                     </a>
                 </div>
                 <div class="goods_three_bd">
@@ -97,16 +112,20 @@
                         <img src="images/国旗.png" alt="">
                     </a>
                     <h4>SVELTY&nbsp;分解糖活孝母&nbsp;56粒</h4>
-                    <span>￥25</span>
-                    <div class="cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
+                    <div class="price">
+                        <span>￥25</span>
+                        <div class="cart">
+                            <a href="#">
+                                <img src="images/cart.png" alt="">
+                            </a>
+                        </div>
                     </div>
+
 
                 </div>
             </div>
         </div>
+        <!-- 两个商品 -->
         <div class="goods_two">
             <div class="goods_two_items">
                 <div class="goods_two_hd">
@@ -119,33 +138,15 @@
                         <img src="images/国旗.png" alt="">
                     </a>
                     <h4>SK&nbsp;II&nbsp;护肤精华油致活皮乳液&nbsp;50g</h4>
-                    <span>￥834</span>
-                    <div class="goods_two_cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
+                    <div class="goods_two_price">
+                        <span>￥834</span>
+                        <div class="goods_two_cart">
+                            <a href="#">
+                                <img src="images/cart.png" alt="">
+                            </a>
+                        </div>
                     </div>
 
-                </div>
-            </div>
-
-           <div class="goods_two_items">
-                <div class="goods_two_hd">
-                    <a href="#">
-                        <img src="images/good_2_2.png" alt="">
-                    </a>
-                </div>
-                <div class="goods_two_bd">
-                    <a href="#">
-                        <img src="images/国旗.png" alt="">
-                    </a>
-                    <h4>SANTEN&nbsp;参天制药&nbsp;FX&nbsp;neo眼药水&nbsp;银色款</h4>
-                    <span>￥230</span>
-                    <div class="goods_two_cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
-                    </div>
 
                 </div>
             </div>
@@ -153,7 +154,7 @@
             <div class="goods_two_items">
                 <div class="goods_two_hd">
                     <a href="#">
-                        <img src="images/goods_2_3.png" alt="">
+                        <img src="images/good_2_1.png" alt="">
                     </a>
                 </div>
                 <div class="goods_two_bd">
@@ -161,36 +162,20 @@
                         <img src="images/国旗.png" alt="">
                     </a>
                     <h4>SK&nbsp;II&nbsp;护肤精华油致活皮乳液&nbsp;50g</h4>
-                    <span>￥834</span>
-                    <div class="goods_two_cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
+                    <div class="goods_two_price">
+                        <span>￥834</span>
+                        <div class="goods_two_cart">
+                            <a href="#">
+                                <img src="images/cart.png" alt="">
+                            </a>
+                        </div>
                     </div>
+
 
                 </div>
             </div>
 
-           <div class="goods_two_items">
-                <div class="goods_two_hd">
-                    <a href="#">
-                        <img src="images/good_2_4.png" alt="">
-                    </a>
-                </div>
-                <div class="goods_two_bd">
-                    <a href="#">
-                        <img src="images/国旗.png" alt="">
-                    </a>
-                    <h4>SANTEN&nbsp;参天制药&nbsp;FX&nbsp;neo眼药水&nbsp;银色款</h4>
-                    <span>￥230</span>
-                    <div class="goods_two_cart">
-                        <a href="#">
-                            <img src="images/cart.png" alt="">
-                        </a>
-                    </div>
 
-                </div>
-            </div>
         </div>
     </div>
 </body>
